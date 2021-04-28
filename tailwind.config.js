@@ -5,12 +5,9 @@ module.exports = {
     extend: {},
   },
   variants: {
-    variants: {
-      extend: {
-        translate: ['responsive', 'hover', 'focus', 'group-hover'],
-        transform: ['responsive', 'hover', 'focus', 'group-hover'],
-      }
-    },
+    extend: {
+      transform: ['group-hover'],
+    }
   },
   plugins: [],
 }

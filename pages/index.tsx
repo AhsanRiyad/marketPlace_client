@@ -49,7 +49,7 @@ export default function Home() {
                     <a href="#" className="mx-2">newest</a>
                     <a href="#" className="mx-2">best seller</a>
                   </div>
-                  <div className="mt-12 mx-10 bg-white p-1 rounded relative transform translate-y-8 group-hover:translate-y-6">
+                  <div className="mt-12 mx-10 bg-white p-1 rounded relative transform translate-y-10 group-hover:translate-y-9 group-hover:transform transition delay-150 duration-300 ease-in-out">
                     <img src="/static/category-tiles-wordpress.webp" />
                     <div className="absolute rounded-full flex items-center justify-center h-12 w-12 bg-red-100 " style={{ left: '44%' , top: '-20px' }}>WP</div>
                   </div>
