@@ -24,7 +24,7 @@ const abc: React.FC = () => {
                     <div className="inline mx-3 cursor-pointer"> Code </div>
                     <div className="inline mx-3 cursor-pointer"> Graphics </div>
                     <div className="inline mx-3 cursor-pointer"> Photo </div>
-                    <div className="absolute right-4 -bottom-10 rounded bg-gray-500 py-4 px-4">MarketPlace</div>
+                    <div className="absolute right-4 -bottom-10 rounded bg-gray-500 py-4 px-4 cursor-pointer">MarketPlace</div>
                 </div>
         </div>
 

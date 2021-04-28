@@ -34,10 +34,43 @@ export default function Home() {
           </div>
 
           <div className="col-span-2 place-self-center">
-            <img src="/static/search-header-1600749088571.webp"  className="mx-3"/>
+            <img src="/static/search-header-1600749088571.webp" className="mx-3"/>
+          </div>
+
+          <div className="col-start-2 col-span-4 mt-24 mb-24">
+            <div className="grid grid-cols-3 gap-3">
+
+              <div >
+                
+                <div className="grid justify-center pt-12 text-center bg-green-100 rounded-xl group overflow-y-hidden cursor-pointer hover:bg-white transition delay-150 duration-300 ease-in-out ">
+                  <h2 className="font-bold text-2xl">WordPress Themes</h2>
+                  <p>Thousands of WordPress themes</p>
+                  <div>
+                    <a href="#" className="mx-2">newest</a>
+                    <a href="#" className="mx-2">best seller</a>
+                  </div>
+                  <div className="mt-12 mx-10 bg-white p-1 rounded relative transform translate-y-8 group-hover:translate-y-6">
+                    <img src="/static/category-tiles-wordpress.webp" />
+                    <div className="absolute rounded-full flex items-center justify-center h-12 w-12 bg-red-100 " style={{ left: '44%' , top: '-20px' }}>WP</div>
+                  </div>
+                </div>
+
+              </div>
+
+
+              <div className="bg-yellow-100 rounded-xl">
+                1
+              </div>
+              <div className="bg-pink-100 rounded-xl">
+                1
+              </div>
+            </div>
           </div>
 
         </div>
+
+
+
       </div>
     </div>
   )
