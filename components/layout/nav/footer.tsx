@@ -1,11 +1,9 @@
 import React from 'react';
 
-
 const abc: React.FC = ()=>{
     return (<div>
         <div className="grid grid-cols-12 bg-black">
             <div className="col-start-2 col-span-10 border my-10 border-gray-200 "></div>
-
             <div className="col-start-2 col-span-10 text-white">
                 <div className="grid grid-cols-3 text-xs">
                     <div className="">

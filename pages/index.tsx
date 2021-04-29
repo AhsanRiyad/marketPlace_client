@@ -1,20 +1,16 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Footer from '../components/layout/footer';
-import Header from '../components/layout/header';
+import Footer from '../components/layout/nav/footer';
+import Header from '../components/layout/nav/header';
 import SearchIcon from '@material-ui/icons/Search';
+import Nav from '../components/layout/nav/nav';
 
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <Header/>
+      <Nav>
       <div className="bg-blue-50">
-        <div className="grid grid-cols-6  text-black  place-content-center">
+        <div className="grid grid-cols-6 text-black place-content-center">
           <div className="col-start-2 col-span-2 mt-32">
             <div className="font-bold text-3xl">
               51,528 WordPress Themes & Website Templates From $2 
@@ -103,8 +99,9 @@ export default function Home() {
 
         </div>
       </div>
+      </Nav>
 
-      <Footer/>
+
     </div>
   )
 }
