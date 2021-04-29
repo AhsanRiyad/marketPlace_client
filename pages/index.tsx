@@ -97,11 +97,14 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="col-span-full text-center mb-8">
+            <button className="bg-green-500 text-white px-4 py-2 rounded-md">View All Categories</button>
+          </div>
+
         </div>
-
-
-
       </div>
+
+      <Footer/>
     </div>
   )
 }
